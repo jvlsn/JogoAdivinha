@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Advinha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="conteudo">
+            <h1>Jogo do Adivinha</h1>
+            <p>Foi sorteado um número entre 0 e 1000, seu objetivo será adivinhá-lo com a menor quantidade de tentativas possível. O botão resetar sorteia outro número.</p>
+        </div>
+
+        <div class="tab">
+            <form action="">
+                <input type="text" name="name" id="name" placeholder="Seu chute">
+
+                <button id="chutar" class="chutar">CHUTAR</button>
+                <button id="resetar" class="resetar">RESETAR</button>
+            </form>
+        </div>
+
+        <h2 id="quantidade" class="quantidade"></h2>
+        <h2 id="resultado" class="resultado"></h2>
+    </main>
+
+</body>
+<script src="script.js"></script>
+
+</html>
