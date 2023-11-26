@@ -20,6 +20,13 @@ main {
   padding: 40px;
   margin-top: 12%;
   box-shadow: 10px 10px 8px rgb(8, 8, 8);
+  transition: all ease 0.4s;
+}
+
+.quantidade, .resultado {
+  transition: all ease 0.4s;
+  margin-top: 10px;
+  font-weight: 400;
 }
 
 .conteudo {
